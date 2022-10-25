@@ -8,6 +8,7 @@ ul {
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
     gap: 20px;
+    margin-right: 150px;
 }
 
 .header{
@@ -18,12 +19,14 @@ ul {
     font-size: 18px;
     font-weight: bolder;
     color: #E5E7Eb;
+    overflow: auto;
 }
 
 .logotext{
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bolder;
+    margin-left: 150px;
 }
 
 a:link{
@@ -31,4 +34,50 @@ a:link{
 }
 a:visited{
     color:#E5E7Eb
+}
+
+
+.topcontainer{
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 200px;
+}
+.maintext{
+    display:flex;
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-top: 150px;
+    flex-wrap: wrap;
+    max-width: 400px;
+    gap: 10px;
+}
+.subtext{
+    font-size: 18px;
+    color: #E5E7Eb;
+    font-weight: 0;
+}
+.resize{
+    width: 400px;
+    height: auto;
+    margin-top: 150px;
+}
+
+.button{
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.bodycontainer{
+    display:flex;
 }
