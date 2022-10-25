@@ -3,11 +3,32 @@ body {
     flex-direction: column;
 }
 ul {
+    display: flex;
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
+    gap: 20px;
 }
 
 .header{
-    
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1F2937;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #E5E7Eb;
+}
+
+.logotext{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color:#E5E7Eb
 }
